@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a.css">
+    <link rel="icon" type="image/jpeg" href="imagenes/WhatsApp Image 2026-06-11 at 7.34.46 PM.jpeg">
+</head>
+<body>
+    <div id="Login-container" class="card">
+        <h2>Iniciar sesión</h2>
+        <p>Introduce tus credenciales para entrar</p>
+        <input type="text" id="usuario" placeholder="Usuario">
+        <br>
+        <input type="password" id="password" placeholder="contraseña">
+        <br>
+        <button onclick="validarAcceso()">Entrar</button>
+        <p id="mensaje-error" class="error"></p>
+    </div>
+    <div id="pantalla-bienvenido" class="card" style="display: none;">
+        <h1>¡Bienvenido al sistema!</h1>
+        <p>has interpretado los requerimientos correctamente</p>
+        <button onclick="location.reload()">Cerrar sesion</button>
+
+    </div>
+    <script src="pagina.js"></script>
+</body>
+</html>
